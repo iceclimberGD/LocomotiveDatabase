@@ -92,7 +92,7 @@ public class MessageListener extends ListenerAdapter {
         try{
             logMessage = SearchExcel.searchExcel(rrNumber,locoNumber,comment, event);
         }catch (IOException e) {
-            logMessage = "Backup file path does not exist, or one of the files is open! <@307636720789225472>";
+            logMessage = "Backup file path does not exist, or one of the files is open!";
         }
 
         //If nothing went wrong, the bot reacts with a check. Otherwise, it reacts with an X and logs the error

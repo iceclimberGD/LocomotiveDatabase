@@ -135,7 +135,7 @@ public class SearchExcel {
             return "The number " + locoNumber + " was not found in " + rrName + "'s roster!";
         }
         //If it makes it this far then something definitely went wrong and wasn't caught earlier.
-        return "An unknown error occurred! <@307636720789225472>";
+        return "An unknown error occurred!";
     }
     public static void tempArray(String message){
         date = message;
